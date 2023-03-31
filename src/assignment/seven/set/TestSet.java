@@ -18,18 +18,18 @@ public class TestSet {
 
         System.out.println(set.hashCode());     //print random hashcode
 
-        set.remove("Fahmida");                       //remove
+        set.remove("Fahmida");               //remove
         System.out.println(set);                //print set after remove
 
 
-        for (String x : set)                     //for each loop and print set
+        for (String x : set)                    //for each loop and print set
         {
             System.out.println(x);
         }
 
         System.out.println("=================");
 
-        Set<String> set1 = new TreeSet<>();        //Tree Set
+        Set<String> set1 = new TreeSet<>();     //Tree Set
 
         set1.add("Himu");
         set1.add("Fahmida");
@@ -38,7 +38,7 @@ public class TestSet {
         set1.add("Zabin");
         System.out.println(set1);
 
-        if (set1.contains("Fahmida"))          //set contains checking by using if-else
+        if (set1.contains("Fahmida"))           //set contains checking by using if-else
         {
             System.out.println("Absent");
         } else {
